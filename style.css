@@ -5,7 +5,7 @@ body {
 	font-family: ‘Gabriola’;
 }
 @font-face {
-    font-family: title;
+    font-family: title_font;
     src: url("https://hatepignotfat.github.io/fonts/TheCircousStriped.ttf");
 }
 
@@ -19,7 +19,7 @@ h1 {
 	text-align: center;
 	font-size: 3em;
 	margin-bottom: 50px;
-	font-family: "Caflisch Script";
+	font-family: title_font;
 	color: snow;
 }
 
