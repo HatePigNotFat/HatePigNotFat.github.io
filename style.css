@@ -4,6 +4,10 @@ body {
 	background-position: center;
 	font-family: ‘Gabriola’;
 }
+@font-face {
+    font-family: title;
+    src: url("https://hatepignotfat.github.io/fonts/TheCircousStriped.ttf");
+}
 
 .menu-container {
 	width: 80%;
