@@ -7,6 +7,12 @@ body {
     font-family: title_font;
     src: url("https://hatepignotfat.github.io/ttf/Morganite-Medium.ttf");
 }
+@font-face {
+    font-family: chinese_font;
+    src: url("https://hatepignotfat.github.io/ttf/QingNiaoHuaGuangJianXingCao-1.ttf");
+}
+
+
 
 .menu-container {
 	width: 80%;
@@ -31,7 +37,7 @@ h2 {
 	text-align: center;
 	margin-bottom: 10px;
 	color: snow;
-	font-family: cursive;
+	font-family: chinese_font;
 }
 
 h3 {
@@ -47,5 +53,5 @@ p {
 	text-align: center;
 	line-height: 1.5;
 	color: snow;
-	font-family: cursive;
+	font-family: chinese_font;
 }
