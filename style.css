@@ -99,6 +99,9 @@ section img#crs
   background: #bedbe5;
   box-shadow: 0 0 0 2px #bedbe5;
 }
+.drink {
+	margin-bottom: 30px;
+}
 .sec h2 
 {
   font-size: 3em;
