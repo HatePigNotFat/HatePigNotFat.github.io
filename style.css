@@ -1,0 +1,57 @@
+body {
+	background-image: url("https://hatepignotfat.github.io/pics/p0.JPG");
+	background-size: cover;
+	background-position: center;
+}
+@font-face {
+    font-family: title_font;
+    src: url("https://hatepignotfat.github.io/ttf/Morganite-Thin.ttf");
+}
+@font-face {
+    font-family: chinese_font;
+    src: url("https://hatepignotfat.github.io/ttf/QingNiaoHuaGuangJianXingCao-1.ttf");
+}
+
+
+
+.menu-container {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 8em;
+	margin-bottom: 50px;
+	font-family: title_font;
+	color: snow;
+}
+
+.drink {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 10px;
+	color: snow;
+	font-family: chinese_font;
+}
+
+h3 {
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 1.5;
+	font-family: fantasy;
+	color: snow;
+}
+
+p {
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 1.5;
+	color: snow;
+	font-family: chinese_font;
+}
