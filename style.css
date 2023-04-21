@@ -27,10 +27,10 @@ body {
 
 .banner {
   height: 12em;
-  width: 120em;
+  width: 60em;
   overflow: hidden;
   position: relative;
-    margin-top: auto;
+  margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
@@ -38,16 +38,17 @@ body {
 
 .banner img {
   position: absolute;
-  top: -2%; /* Crop top by 10% */
-  bottom: -2%; /* Crop bottom by 10% */
+  top: -45%; /* Crop top by 10% */
+  bottom: -45%; /* Crop bottom by 10% */
   left: 0;
   right: 0;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 130%, 0 130%);
 }
+
 h1 {
 	text-align: center;
 	font-size: 6em;
