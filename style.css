@@ -19,6 +19,22 @@ body {
 	padding-top: 50px;
 }
 
+.banner {
+  height: 5%
+  overflow: hidden;
+  position: relative;
+}
+
+.banner img {
+  position: absolute;
+  top: -30%; /* Crop top by 10% */
+  bottom: -30%; /* Crop bottom by 10% */
+  left: 0;
+  right: 0;
+  margin: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 120%, 0 120%);
+}
+
 h1 {
 	text-align: center;
 	font-size: 6em;
