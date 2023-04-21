@@ -1,5 +1,5 @@
 body {
-	background-image: url("https://hatepignotfat.github.io/pics/p0.JPG");
+	background-image: url("./pics/p0.JPG");
 	background-size: cover;
 	background-position: center;
 }
@@ -9,9 +9,8 @@ body {
 }
 @font-face {
     font-family: chinese_font;
-    src: url("https://hatepignotfat.github.io/ttf/QingNiaoHuaGuangJianXingCao-1.ttf");
+    src: url("./ttf/QingNiaoHuaGuangJianXingCao-1.ttf");
 }
-
 
 .menu-container {
 	width: 80%;
@@ -19,22 +18,28 @@ body {
 	padding-top: 50px;
 }
 
+.smaller_img {
+	height: 360%;
+	width: auto;
+	margin: 0 auto;
+}
+
 .banner {
-  height: 5%
+  height: 12em;
+  width: 120em;
   overflow: hidden;
   position: relative;
 }
 
 .banner img {
   position: absolute;
-  top: -30%; /* Crop top by 10% */
-  bottom: -30%; /* Crop bottom by 10% */
+  top: -2%; /* Crop top by 10% */
+  bottom: -2%; /* Crop bottom by 10% */
   left: 0;
   right: 0;
   margin: auto;
-  clip-path: polygon(0 0, 100% 0, 100% 120%, 0 120%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
-
 h1 {
 	text-align: center;
 	font-size: 6em;
