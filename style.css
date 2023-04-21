@@ -21,7 +21,8 @@ body {
 .smaller_img {
 	height: 360%;
 	width: auto;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .banner {
@@ -29,6 +30,10 @@ body {
   width: 120em;
   overflow: hidden;
   position: relative;
+    margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner img {
@@ -37,7 +42,10 @@ body {
   bottom: -2%; /* Crop bottom by 10% */
   left: 0;
   right: 0;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 h1 {
